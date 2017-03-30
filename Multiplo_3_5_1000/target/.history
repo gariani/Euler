@@ -1,0 +1,32 @@
+exit
+run
+1
+run
+~; container:reload
+~; container:compiler; container:reload
+~; container:compiler; container:reload /
+~; container:compile; container:reload /
+~; container:start; container:reload /
+~(container:start, container:reload)
+~; container:reload /
+run
+exit
+run
+900/5
+run
+exit
+run
+run teste
+run teste teste2
+run
+run teste
+run
+exit
+run
+exit
+run
+exit
+run
+exit
+run
+exit
